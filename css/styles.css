@@ -1,0 +1,102 @@
+/* Web Fonts ------------------------------*/
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto/Roboto-Regular.eot');
+  src: url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+       url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+/* Base Styles ----------------------------*/
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Regular';
+}
+
+.main-footer {
+  text-align: center;
+}
+
+/* Layout Containers ----------------------*/
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Page Elements --------------------------*/
+.portfolio-images {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Media Queries --------------------------*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .wrap {
+    min-height: calc(100vh - 95.51px);
+  }
+
+  .main-header {
+    text-align: center;
+  }
+
+  .intro p {
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: block;
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 70%;
+  }
+
+  .portfolio-images {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    min-height: calc(100vh - 95.51px);
+  }
+
+  .main-header {
+    text-align: center;
+  }
+
+  .main-header,
+  .main-nav li {
+    display: inline;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrap {
+    min-height: calc(100vh - 95.51px);
+  }
+}

@@ -3,66 +3,71 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Enzie Project 2</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-      <h1>Enzie Riddle</h1>
-      <ul>
-        <li><a href="#"></a>HOME</li>
-        <li><a href="#"></a>PORTFOLIO</li>
-        <li><a href="#"></a>CONTACT</li>
-      </ul>
-      <img src="images/responsive-layout-profile.png" alt="Graphic of a profile picture.">
-      <p>"Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!"</p>
-    </header>
+    <div class="wrap">
+      <header class="main-header">
+        <h1>Enzie Riddle</h1>
+        <ul class="main-nav">
+          <li><a href="#"></a>HOME</li>
+          <li><a href="#"></a>PORTFOLIO</li>
+          <li><a href="#"></a>CONTACT</li>
+        </ul>
+      </header>
 
-    <div>
-      <h2>PORTFOLIO</h2>
+      <div class="intro">
+        <img class="profile-image" src="images/responsive-layout-profile.png" alt="Graphic of a profile picture.">
+        <p>"Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!"</p>
+      </div> <!--/.intro-->
 
-      <div>
-        <img src="images/portfolio-1.png" alt="Graphic of a marketing page.">
-        <h2>Marketing Page</h2>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-      </div>
+      <div class="container">
+        <h2>PORTFOLIO</h2>
 
-      <div>
-        <img src="images/portfolio-2.png" alt="Graphic of a search page.">
-        <h2>Search Page</h2>
-        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-      </div>
+        <img class="portfolio-images" src="images/portfolio-1.png" alt="Graphic of a marketing page.">
+        <div class="marketing col">
+          <h2>Marketing Page</h2>
+          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        </div>
 
-      <div>
-        <img src="images/portfolio-3.png" alt="Graphic of a travel search page.">
-        <h2>Travel App</h2>
-        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-      </div>
+        <img class="portfolio-images" src="images/portfolio-2.png" alt="Graphic of a search page.">
+        <div class="search col">
+          <h2>Search Page</h2>
+          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        </div>
 
-      <div>
-        <img src="images/portfolio-4.png" alt="Graphic of a location map.">
-        <h2>Map of Favorite Spots</h2>
-        <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-      </div>
+        <img class="portfolio-images" src="images/portfolio-3.png" alt="Graphic of a travel search page.">
+        <div class="travel col">
+          <h2>Travel App</h2>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </div>
 
-      <div>
-        <img src="images/portfolio-5.png" alt="Graphic of a photo gallery.">
-        <h2>Photo Gallery</h2>
-        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through the photos.</p>
-      </div>
+        <img class="portfolio-images" src="images/portfolio-4.png" alt="Graphic of a location map.">
+        <div class="map col">
+          <h2>Map of Favorite Spots</h2>
+          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+        </div>
 
-      <div>
-        <img src="images/portfolio-6.png" alt="Graphic of a calculator.">
-        <h2>Calculator</h2>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-      </div>
-    </div> <!--/.container-->
+        <img class="portfolio-images" src="images/portfolio-5.png" alt="Graphic of a photo gallery.">
+        <div class="photo col">
+          <h2>Photo Gallery</h2>
+          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through the photos.</p>
+        </div>
 
-    <footer>
+        <img class="portfolio-images" src="images/portfolio-6.png" alt="Graphic of a calculator.">
+        <div class="calculator col">
+          <h2>Calculator</h2>
+          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+        </div>
+      </div> <!--/.container-->
+    </div> <!--/.wrap-->
+
+    <footer class="main-footer">
       <h3>CONTACT</h3>
       <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
       <ul>
-        Phone: (111)867-5309
-        Email: email@yoursite.com
+        <li>Phone: (111)867-5309</li>
+        <li>Email: email@yoursite.com</li>
       </ul>
     </footer>
 
