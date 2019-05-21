@@ -13,6 +13,16 @@
   font-family: 'Roboto Regular';
 }
 
+nav ul {
+  display: inline;
+}
+
+nav li {
+  padding-bottom: 1em;
+  margin: 7px 25px;
+  background: #ffffff;
+}
+
 body {
   text-align: center;
 }
@@ -24,6 +34,9 @@ body {
 
 .main-header {
   text-align: center;
+  background: #f7f7f7;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
 }
 
 .intro p {
@@ -38,8 +51,9 @@ body {
   text-align: center;
 }
 
-.main-footer {
+.main-footer ul {
   text-align: center;
+  display: inline;
 }
 
 /* Page Elements --------------------------*/
@@ -61,20 +75,31 @@ body {
   }
 
   .main-header {
-    text-align: center;
+    background: #f7f7f7;
   }
 
-  .main-header {
-    display: inline;
+  nav {
+    padding-bottom: 3em;
+  }
+
+  nav li {
     text-align: center;
+    display: inline;
+    padding-right: 2em;
+  }
+
+  .intro {
+    padding: 4em 1em;
+  }
+
+  .intro p {
+    text-align: left;
   }
 
   .profile-image {
     width: 300px;
     float: right;
-    margin-top: 5px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    padding-left: 1em;
   }
 
   .container {
@@ -82,6 +107,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  .portfolio-text {
+    padding-top: 3em;
+  }
+
 }
 
 @media (min-width: 1024px) {
