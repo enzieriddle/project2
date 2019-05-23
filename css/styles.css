@@ -119,6 +119,10 @@ body {
   padding-right: .5em;
 }
 
+.footer-nav {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
