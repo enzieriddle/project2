@@ -106,6 +106,7 @@ body {
   float: left;
   font-weight: bold;
   color: #3a3a3a;
+  margin-top: 1em;
   padding-left: .5em;
   padding-bottom: 1em;
 }
@@ -114,6 +115,7 @@ body {
   float: right;
   font-weight: bold;
   color: #3a3a3a;
+  margin-top: 1em;
   padding-right: .5em;
 }
 
@@ -157,28 +159,42 @@ hr {
     background: #f7f7f7;
   }
 
+  #top h1 {
+    padding-bottom: .5em;
+  }
+
   nav {
-    padding-bottom: 3em;
+    padding-bottom: 1em;
   }
 
   nav li {
     text-align: center;
     display: inline;
-    padding-right: 2em;
+    padding-right: .5em;
+    padding-left: .5em;
+    background: none;
   }
 
   .intro {
-    padding: 4em 1em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+
   }
 
   .intro p {
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .profile-image {
-    width: 300px;
+    width: 400px;
     float: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 1em;
+    padding-right: 1em;
   }
 
   .container {
@@ -187,8 +203,59 @@ hr {
     margin: 0 auto;
   }
 
+  .marketing,
+  .travel,
+  .photo {
+    float: left;
+    width: 50%;
+  }
+
+  .search,
+  .map,
+  .calculator {
+    float: right;
+    width: 50%;
+  }
+
+  .col p {
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 50%;
+  }
+
   .portfolio-text {
     padding-top: 3em;
+  }
+
+  .main-footer h3 {
+    padding-top: 3em;
+    color: #3a3a3a;
+  }
+
+  .name {
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .bottom li {
+    float: right;
+    font-size: 1rem;
+    margin-top: -.1em;
+    padding-left: none;
+    padding-right: none;
+    color: #3a3a3a;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 }
@@ -197,4 +264,76 @@ hr {
   .wrap {
     min-height: calc(100vh - 95.51px);
   }
+
+  .main-header {
+    background: #f7f7f7;
+  }
+
+  #top h1 {
+    padding-bottom: .5em;
+  }
+
+  nav {
+    padding-bottom: 1em;
+  }
+
+  nav li {
+    text-align: center;
+    display: inline;
+    padding-right: .5em;
+    padding-left: .5em;
+    background: none;
+  }
+
+  .intro {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+  }
+
+  .intro p {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .profile-image {
+    width: 400px;
+    float: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .marketing,
+  .search,
+  .travel {
+    float: left;
+    width: 33%;
+  }
+
+  .map,
+  .photo,
+  .calculator {
+    float: right;
+    width: 33%;
+  }
+
+  .col {
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+
+  footer {
+    overflow: hidden;
+  }
+
 }
