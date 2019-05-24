@@ -336,8 +336,24 @@ hr {
     padding-right: .2em;
   }
 
-  footer {
-    overflow: hidden;
+  .name {
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .bottom li {
+    float: right;
+    font-size: 1rem;
+    margin-top: -.1em;
+    padding-left: none;
+    padding-right: none;
+    color: #3a3a3a;
   }
 
 }
