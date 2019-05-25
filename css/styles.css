@@ -347,7 +347,8 @@ hr {
     display: none;
   }
 
-  .bottom li {
+  .footer-nav li {
+    display: inline-block;
     float: right;
     font-size: 1rem;
     margin-top: -.1em;
