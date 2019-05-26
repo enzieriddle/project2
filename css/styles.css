@@ -127,15 +127,16 @@ a {
   text-decoration: none;
 }
 
+/* Page Elements --------------------------*/
+
 hr {
   border-style: solid;
   border-color: #d8d8d8;
   border-width: 1.2px;
   border-radius: 20px;
-  width: 85%;
+  width: 95%;
 }
 
-/* Page Elements --------------------------*/
 .profile-image {
   width: 70%;
 }
@@ -247,6 +248,10 @@ hr {
     display: none;
   }
 
+  .footer-nav {
+    display: inline;
+  }
+
   .bottom li {
     float: right;
     font-size: 1rem;
@@ -282,11 +287,25 @@ hr {
   }
 
   nav li {
-    text-align: center;
     display: inline;
     padding-right: .5em;
     padding-left: .5em;
     background: none;
+  }
+
+  .main-header h1 {
+    float: left;
+    padding-left: 4em;
+  }
+
+  nav ul {
+    float: right;
+    padding-right: 4em;
+  }
+
+  .main-header h1,
+  .main-header nav {
+    padding-bottom: 5em;
   }
 
   .intro {
@@ -298,17 +317,19 @@ hr {
   }
 
   .intro p {
+    width: 65%;
+    margin-left: -.5em;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .profile-image {
-    width: 400px;
+    width: 600px;
     float: right;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 3em;
   }
 
   .container {
@@ -347,14 +368,25 @@ hr {
     display: none;
   }
 
-  .footer-nav li {
+  .footer-nav {
+    display: inline;
+    margin-top: 1em;
+  }
+
+  .footer-nav ul {
     display: inline-block;
     float: right;
     font-size: 1rem;
     margin-top: -.1em;
     padding-left: none;
-    padding-right: none;
+    padding-right: 1em;;
     color: #3a3a3a;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 }
