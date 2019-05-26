@@ -38,7 +38,7 @@ body {
 
 .main-header {
   text-align: center;
-  background: #f7f7f7;
+  background: #ffdded;
   padding-top: 1.5em;
   padding-bottom: 2em;
 }
@@ -59,6 +59,13 @@ body {
   padding-right: 4em;
 }
 
+.skills {
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em 3em;
+  background: #ffeff8;
+}
+
 .portfolio-text {
   font-size: 1.2rem;
   padding-top: 2em;
@@ -75,7 +82,7 @@ body {
 }
 
 .main-footer {
-  background: #f7f7f7;
+  background: #ffdded;
 }
 
 .main-footer p {
@@ -127,11 +134,19 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: transparent;
+}
+
+a:hover {
+  color: #fff9fc;
+}
+
 /* Page Elements --------------------------*/
 
 hr {
   border-style: solid;
-  border-color: #d8d8d8;
+  border-color: #ffeff8;
   border-width: 1.2px;
   border-radius: 20px;
   width: 95%;
@@ -161,7 +176,7 @@ hr {
   }
 
   .main-header {
-    background: #f7f7f7;
+    background: #ffdded;
   }
 
   #top h1 {
@@ -232,6 +247,10 @@ hr {
     padding-top: 3em;
   }
 
+  .main-footer {
+    background-color: #ffdded;
+  }
+
   .main-footer h3 {
     padding-top: 3em;
     color: #3a3a3a;
@@ -252,12 +271,10 @@ hr {
     display: inline;
   }
 
-  .bottom li {
+  .footer-nav ul {
     float: right;
-    font-size: 1rem;
-    margin-top: -.1em;
-    padding-left: none;
-    padding-right: none;
+    font-size: .93rem;
+    margin-top: 1em;
     color: #3a3a3a;
   }
 
@@ -275,7 +292,7 @@ hr {
   }
 
   .main-header {
-    background: #f7f7f7;
+    background: #ffdded;
   }
 
   #top h1 {
@@ -368,6 +385,10 @@ hr {
     display: none;
   }
 
+  .main-footer {
+    background-color: #ffdded;
+  }
+
   .footer-nav {
     display: inline;
     margin-top: 1em;
@@ -378,7 +399,6 @@ hr {
     float: right;
     font-size: 1rem;
     margin-top: -.1em;
-    padding-left: none;
     padding-right: 1em;;
     color: #3a3a3a;
   }
